@@ -1,0 +1,163 @@
+.product-page .container2 {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.product-page h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.product-page .section-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.product-page .section-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.product-page .section-list {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.product-page .section-list li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Section Pessoal */
+
+.product-page .section-pessoal {
+  background-color: #858585;
+  color: #fff;
+  padding: 100px 0;
+  width: 100%;
+}
+
+/* Section Veículo */
+
+.product-page .section-veiculo {
+  width: 100%;
+  color: #000000;
+  padding: 100px 0;
+}
+
+/* Section Consignado */
+
+.product-page .section-consignado {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+/* Products */
+
+.product-page .product {
+  background-color: #fff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.product-page .product h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-page .product p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  width: 95%;
+}
+
+/* Empréstimo Pessoal */
+
+.product-page .section-pessoal h1.section-title {
+  color: #fff;
+}
+
+.product-page .section-pessoal {
+  font-size: 20px;
+  color: #e6e6e6;
+}
+
+/* Financiamento ou Refinanciamento de Veículo */
+
+.product-page .section-veiculo h1.section-title {
+  color: #000000;
+}
+
+.product-page .section-veiculo {
+  font-size: 20px;
+  color: #000000;
+}
+
+.product-page .product veiculo {
+  border-top: 10px solid #5f0a14;
+}
+
+.product-page .product veiculo h2 {
+  color: #5f0a14;
+}
+
+/* Crédito Consignado */
+
+.product-page .section-consignado h1.section-title {
+  color: #000000;
+}
+
+.product-page #botao {
+  display: block;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 12px 36px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product-page #botao:hover {
+  background-color: #5f0a14;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.product-page #botao:active {
+  background-color: #5f0a14;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  transform: scale(0.95);
+}
+
+@media (max-width: 425px) {
+  .product-page #botao {
+    margin: 10% auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-page #botao {
+    margin: 10% auto;
+  }
+}

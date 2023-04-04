@@ -1,0 +1,59 @@
+.rodape {
+  display: flex;
+  flex-flow: row wrap;
+  color: white;
+  background-color: #5f0a14;
+  padding: 20px;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.rodape .content {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 425px) {
+  .rodape .content {
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .rodape .content {
+    flex-flow: column;
+  }
+}
+
+.rodape .content a {
+  color: white;
+}
+
+.rodape ul {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  list-style: inside;
+  font-size: 16px;
+}
+
+.rodape .logo {
+  font-size: 24px;
+  font-weight: bold;
+/*  margin-left: 100px;*/
+  min-width: 180px;
+  flex: 1;
+}
+
+.rodape .direitos-autorais {
+  font-size: 14px;
+  flex: 1;
+}
+
+.rodape .content > div {
+  flex: 1;
+}
